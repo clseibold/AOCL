@@ -37,3 +37,22 @@ Examples of Common Integration Patterns:
 - Extending library classes/interfaces: Derivative work
 
 ## Compatibility with Other Licenses
+
+### Permissive License Compatibility
+
+1. MIT License - Two-way Compatibility
+  * MIT code can be included in AOCL projects
+  * AOCL code can be used in MIT projects if:
+    - Attribution requirements are met
+    - Network service provisions are followed
+    - The MIT project qualifies as a Dependent Work
+
+2. BSD Licenses (2-clause, 3-clause) - Two-way Compatibility
+  * Similar to MIT compatibility
+  * Must maintain BSD attribution notices
+  * Compatible with AOCL's attribution requirements
+
+3. Mozilla Public License 2.0 - Two-way Compatibility with file separation
+  * File-level copyleft aligns with AOCL's dependent work provisions
+  * Can be used together in the same project
+  * Each file retains its original license

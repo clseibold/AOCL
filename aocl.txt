@@ -230,7 +230,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
    a) For all users:
       - The attribution requirements in Section 4
       - The trademark usage restrictions in Section 5
-      - The patent grant and retaliation provisions in Section 7, including the obligation to grant patent licenses for patents that cover your specific method of interaction with the Software.
+      - The network usage restrictions in Section 8
    b) For users creating Derivative Works: All provisions of this license without exception.
 
 11.2 Your continued use of the Software in any capacity constitutes ongoing acceptance of these terms. If you do not agree to these terms, you may not use, copy, modify, distribute, or interact with the Software in any way.
