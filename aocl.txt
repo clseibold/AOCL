@@ -11,7 +11,7 @@ The name "AuraGem Opensource Copyleft License™" may only be used to refer to t
 
 ## Preamble
 
-The AuraGem Opensource Copyleft License (AOCL) is designed to enliven an ecosystem where software freedom and practical usability coexist. This license embraces a balanced approach to copyleft, ensuring that modifications to source code remain open while enabling flexible integration through linking interfaces, GUIs, and data exchange.
+The AuraGem Opensource Copyleft License (AOCL) is designed to provide a balanced approach to copyleft that ensures modifications to source code remain open while enabling flexible integration through linking interfaces, UIs, standard library usage, and data exchange.
 
 AOCL protects the rights of creators through attribution requirements and patent provisions while addressing modern software delivery methods, including network services (e.g., SaaS).
 
