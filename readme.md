@@ -10,13 +10,7 @@ Unlike other open source licenses, AOCL is a fixed version without automatic ver
 
 This license represents a middle ground that is more protective than permissive licenses and more pragmatic than traditional strong copyleft licenses, allowing the software to be used in widely diverse contexts with appropriate attribution and patent protections, and maintaining a consistent set of obligations that cannot change over time without the explicit permission of the original authors or copyright holders of the software. By choosing this license, you contribute to a collaborative ecosystem that balances freedom, recognition, and practical adoption.
 
-Examples of Common Integration Patterns:
-- Importing a library and calling its functions: Non-derivative work
-- Copying and modifying library code: Derivative work
-- Using library through API calls: Non-derivative work
-- Extending library classes/interfaces: Derivative work
-
-### Determining Derivative vs. Dependent Works
+## Determining Derivative vs. Dependent Works
 
 To determine whether your work is a Derivative Work or a Dependent Work, follow this decision tree:
 
@@ -35,3 +29,11 @@ To determine whether your work is a Derivative Work or a Dependent Work, follow 
 4. Does your work use the Software as is, without modification, and interact with it solely through standard protocols, operating system interfaces, or linking?
    - Yes: It is a Dependent Work.
    - No: Consult the full definitions in Section 1.4 for further clarification.
+
+Examples of Common Integration Patterns:
+- Importing a library and calling its functions: Dependent work
+- Copying and modifying library code: Derivative work
+- Using library through API calls: Dependent work
+- Extending library classes/interfaces: Derivative work
+
+## Compatibility with Other Licenses

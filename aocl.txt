@@ -54,7 +54,7 @@ For clarity, the term "Software" by itself refers specifically to the work licen
       - Works that use the Software as a tool without incorporating its Source Code
       - Container images that include unmodified copies of the Software
 
-     Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), 7.1(b) (Patent Grant), 7.2 (Patent Retaliation), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
+     Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
 
 1.5 **"Prominent Notice"** refers to a notification that would be discoverable by an ordinary user during normal use of the software, including but not limited to placement in:
    a) "About" screens, help menus, or settings pages in graphical applications
@@ -82,7 +82,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
       - A prominent notice stating that the Software is licensed under the AuraGem Opensource Copyleft License must be included.
 
    b) For Dependent Works that use the Software, as per the exclusions in Section 1.4(b):
-      - A copy of Sections 4, 5, 7.1, 7.2, and 8 of this license, or a reference to this license in full, must be included.
+      - A copy of Sections 4, 5, and 8 of this license, or a reference to this license in full, must be included.
       - A prominent notice stating that the software incorporates elements covered by the AuraGem Opensource Copyleft License must be included.
       - A reference to where the Software's Source Code can be obtained must be included.
       - Any use of Trademarks must comply with Section 5 of this license.
@@ -152,14 +152,9 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
 7.1 Patent Grant:
    a) For Derivative Works: You grant a perpetual, worldwide, non-exclusive, royalty-free license to any patents you hold that are necessary to use, modify, or distribute the Software in any form.
-   b) For Dependent Works: You grant a perpetual, worldwide, non-exclusive, royalty-free license to any patents you hold that are necessary to use or interact with the Software (in either Source Code or binary form) through the specific methods employed by your software (such as linking, data exchange, or user interfaces).
 
 7.2 Patent Retaliation:
-   If you initiate a patent infringement claim against any party alleging that:
-   a) The Software infringes a patent; or
-   b) Their use or interaction with the Software in a manner similar to how your software interacts with it infringes a patent
-
-   then your rights under this license shall terminate immediately.
+   If you initiate a patent infringement claim against any party alleging that the Software infringes a patent, then your rights under this license shall terminate immediately.
 
 ### 8. Network Use
 
