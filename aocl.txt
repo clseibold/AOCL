@@ -43,7 +43,7 @@ For clarity, the term "Software" by itself refers specifically to the work licen
 
    b) **"Non-Derivative Work"** refers to:
       - User interfaces that display output from or provide input to the Software without reproducing the Software's Source Code.
-      - Works that link to the Software in unmodified source or binary form, either statically, dynamically, through Foreign Function Interfaces (FFI), or through the Software's APIs given the Work is dependent on the Software, but the Software is not dependent on the Work.
+      - Works that link to the Software in unmodified source or binary form, either statically, dynamically, through Foreign Function Interfaces (FFI), or through the Software's APIs given the Work is independently developed and its source code maintains clear separation from the Software's Source Code.
       - Programs that launch, invoke, or execute the Software as a separate process through operating system mechanisms.
       - Independent programs that exchange data or communicate with the Software through interfaces, protocols, or other interoperability mechanisms.
       - Works that use the Software as a tool without incorporating its Source Code.
