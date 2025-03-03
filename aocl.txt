@@ -38,9 +38,8 @@ For clarity, the term "Software" by itself refers specifically to the work licen
          * The modified Software requires additional code to compile or function that was not required by the original Software
          * The Software cannot operate without this newly required code
          * The dependency requirement was introduced through modifications to the Software's Source Code
-      - Integration of the Software's Source Code with other code in a way that makes the integrated parts interdependent
+      - Incorporation of portions of the Software's Source Code with other code in a way that makes the integrated parts interdependent with the other code
       - Ports, transpilations, or translations of the Software into other programming languages or formats.
-      - Incorporation of significant portions of the Software's Source Code
 
    b) **"Dependent Work"**, for the purposes of this license, refers to any software that uses or interacts with the Software without qualifying as a Derivative Work, including but not limited to:
       - User interfaces that display output from or provide input to the Software without reproducing the Software's Source Code.
@@ -53,7 +52,7 @@ For clarity, the term "Software" by itself refers specifically to the work licen
       - Works that use the Software as a tool without incorporating its Source Code
       - Container images that include unmodified copies of the Software
 
-     Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), 7.1(b) (Patent Grant), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
+     Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), 7.1(b) (Patent Grant), 7.2 (Patent Retaliation), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
 
 1.5 **"Prominent Notice"** refers to a notification that would be discoverable by an ordinary user during normal use of the software, including but not limited to placement in:
    a) "About" screens, help menus, or settings pages in graphical applications
@@ -90,7 +89,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
 ### 3. Copyleft
 
-3.1 Any Derivative Works of the Software must be licensed under the same terms as this license. You may not impose any additional restrictions on the rights granted by this license, nor may you sublicense the Software or any Derivative Works. Incorporating or embedding the Software's Source Code directly into another codebase creates a Derivative Work subject to this provision.
+3.1 Any Derivative Works of the Software must be licensed under the same terms as this license. Dependent Works are not subject to these copyleft restrictions, but the original Software Source Code must still remain under AOCL copyleft. You may not impose any additional restrictions on the rights granted by this license, nor may you sublicense the Software or any Derivative Works.
 
 3.2 Any Contributions intentionally submitted for inclusion in the Software shall be subject to the same terms and conditions as this license, without any additional terms or conditions.
 
