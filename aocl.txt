@@ -31,13 +31,17 @@ For clarity, the term "Software" by itself refers specifically to the work licen
 
 1.3 **"Source Code"** refers to the preferred form of the Software for making modifications.
 
-1.4 **"Derivative Work"** refers to any work that contains or is derived from any part of the Software's Source Code.
-   a) What ARE Derivative Works:
-      - Modifications or alterations to the Software's Source Code, such as bug fixes, feature enhancements, or performance improvements.
+1.4 Derived and Non-Derived Works:
+   a) **"Derivative Work"** refers to any work that incorporates, adapts, or modifies the Software's Source Code in any of the following ways:
+      - Any modification to the Software's Source Code, whether or not the modification creates new dependencies
+      - Changes that create a technical dependency, where a "technical dependency" exists when:
+         * The modified Software requires additional code to compile or function that was not required by the original Software
+         * The Software cannot operate without this newly required code
+         * The dependency requirement was introduced through modifications to the Software's Source Code
+      - Integration of the Software's Source Code with other code in a way that makes the integrated parts interdependent
       - Ports or translations of the Software into other programming languages or formats.
-      - Works that modify and incorporate, copy, or adapt the Software's Source Code so that it is dependent on other code at the source code level.
 
-   b) What are NOT Derivative Works:
+   b) **"Non-Derivative Work"** refers to:
       - User interfaces that display output from or provide input to the Software without reproducing the Software's Source Code.
       - Works that link to the Software in unmodified source or binary form, either statically, dynamically, through Foreign Function Interfaces (FFI), or through the Software's APIs given the Work is dependent on the Software, but the Software is not dependent on the Work.
       - Programs that launch, invoke, or execute the Software as a separate process through operating system mechanisms.
@@ -89,7 +93,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
 ### 4. Attribution Notices
 
-4.1 You must preserve all attribution notices and copyright statements included in the Software. These notices must be retained in all copies of the Software, any Derivative Works, and any non-Derivative Works that use the Software as described in Section 1.4.
+4.1 You must preserve all attribution notices and copyright statements included in the Software. These notices must be retained in all copies of the Software, any Derivative Works, and any non-Derivative Works that use the Software as described in Section 1.4(b).
 
 4.2 If you modify the Software, you must include a prominent notice stating that you have changed the Software and the date of such changes.
 
