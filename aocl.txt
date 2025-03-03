@@ -172,7 +172,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
       - Providing a direct download link within your application or service
       - Including the Source Code in your application's documentation or help screens
       - Providing a clear URL in your application or service where the Source Code can be freely accessed
-      - Including the Source Code in installation packages or accompanying materials
+      - Including the Source Code in installation packages, distribution packages, or accompanying materials
 
    b) The Source Code must be:
       - Provided at no additional charge beyond the cost of your application or service
@@ -180,9 +180,11 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
       - Complete and corresponding to the version used in your application or service
       - Available for as long as you continue to distribute the application or provide the service
 
+   c) You are not required to host the Source Code yourself if it's available through a package manager or online service
+
 8.3 These requirements apply even if your application or service would otherwise qualify as a Dependent Work under Section 1.4.
 
-8.4 You are not required to make available the Source Code of your larger application that merely links to or interacts with the Software.
+8.4 You are not required to make available the Source Code of your larger application if it qualifies as a Dependent Work under Section 1.4.
 
 8.5 The Source Code made available under Section 8.1 must be provided under the same terms as this license.
 
