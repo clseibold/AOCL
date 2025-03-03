@@ -1,5 +1,15 @@
 # AuraGem Opensource Copyleft License
 
+The AuraGem Opensource Copyleft License (AOCL) is designed to provide a balanced approach to copyleft that ensures modifications to source code remain open while enabling flexible integration through linking interfaces, UIs, standard library usage, and data exchange.
+
+AOCL protects the rights of creators through attribution requirements and patent provisions while addressing modern software delivery methods, including network services (e.g., SaaS).
+
+By distinguishing between Derivative and Dependent works, the license balances copyleft with flexibility. Derivative works are subject to copyleft under the AOCL license. Dependent Works can be licensed independently from the AOCL-licensed Software being depended on. This allows AOCL-licensed Software to be used as a library for static linking, dynamic linking, FFI, or standard inclusion as a library without modification, which is common in programming languages like Rust and Golang.
+
+Unlike other open source licenses, AOCL is a fixed version without automatic version upgrading, removing confusion about which version applies to a given software, whether derivatives can or cannot utilize "later versions" of this license, and ensuring all modifications to software under this license can be upstreamed without additional restrictions placed on those modifications.
+
+This license represents a middle ground that is more protective than permissive licenses and more pragmatic than traditional strong copyleft licenses, allowing the software to be used in widely diverse contexts with appropriate attribution and patent protections, and maintaining a consistent set of obligations that cannot change over time without the explicit permission of the original authors or copyright holders of the software. By choosing this license, you contribute to a collaborative ecosystem that balances freedom, recognition, and practical adoption.
+
 Examples of Common Integration Patterns:
 - Importing a library and calling its functions: Non-derivative work
 - Copying and modifying library code: Derivative work
@@ -18,7 +28,7 @@ To determine whether your work is a Derivative Work or a Dependent Work, follow 
    - Yes: It is a Derivative Work.
    - No: Proceed to question 3.
 
-3. Does your work integrate the Software's Source Code in a way that makes the integrated parts interdependent?
+3. Does your work integrate the Software's Source Code in a way that makes the integrated parts interdependent with your work?
    - Yes: It is a Derivative Work.
    - No: Proceed to question 4.
 
