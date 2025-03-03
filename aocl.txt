@@ -19,7 +19,7 @@ By distinguishing between Derivative and Dependent works, the license balances c
 
 Unlike other open source licenses, AOCL is a fixed version without automatic version upgrading, removing confusion about which version applies to a given software, whether derivatives can or cannot utilize "later versions" of this license, and ensuring all modifications to software under this license can be upstreamed without additional restrictions placed on those modifications.
 
-This license represents a middle ground that is more protective than permissive licenses and more pragmatic than traditional strong copyleft licenses, allowing the software to be used in widely diverse contexts with appropriate attribution and patent protections, and maintaining a consistent set of obligations that cannot change over time without the explicit permission of the original authors or copyright holders of the software. By choosing this license, you contribute to a collaborative ecosystem that balances freedom, recognition, and practical adoption.
+This license represents a middle ground that is more protective than permissive licenses and more pragmatic than traditional strong copyleft licenses, allowing the software to be used in widely diverse contexts with appropriate attribution and patent protections, and maintaining a consistent set of obligations that cannot change over time without the explicit permission of the Original Authors or Copyright Holders of the software. By choosing this license, you contribute to a collaborative ecosystem that balances freedom, recognition, and practical adoption.
 
 ## License Terms
 
@@ -27,51 +27,112 @@ This license represents a middle ground that is more protective than permissive 
 
 1.1 **"Software"** refers to the original work of authorship in any form (including both Source Code and binary forms), including any modifications, enhancements, or derivative works thereof, that is distributed under this license.
 
-For clarity, the term "Software" by itself refers specifically to the work licensed under this license, and does not include other programs that merely link to, interact with, or incorporate the Software through methods described as exclusions in Section 1.4, though such programs remain subject to specific provisions of this license as explicitly stated herein.
+For clarity, the term "Software" by itself refers specifically to the work licensed under this license, and does not include other programs that use, interact with, or incorporate the Software through methods described as exclusions in Section 1.6, though such programs remain subject to specific provisions of this license as explicitly stated herein.
 
 1.2 **"You"** refers to the individual or entity exercising the rights granted under this license.
 
 1.3 **"Source Code"** refers to the preferred form of the Software for making modifications.
 
-1.4 Derived and Dependent Works:
-   a) **"Derivative Work"** refers to any work that incorporates, adapts, or modifies the Software's Source Code in any of the following ways:
-      - Any modification to the Software's Source Code or binary form, whether or not the modification creates new dependencies
-      - Changes that create a technical dependency, where a "technical dependency" exists when:
-         * The modified Software requires additional code to compile or function that was not required by the original Software
-         * The Software cannot operate without this newly required code
-         * The dependency requirement was introduced through modifications to the Software's Source Code
-      - Incorporation of portions of the Software's Source Code with other code in a way that makes the integrated parts interdependent with the other code
-      - Ports, transpilations, or translations of the Software into other programming languages or formats.
 
-   b) **"Dependent Work"**, for the purposes of this license, refers to any software that uses or interacts with the Software without qualifying as a Derivative Work, including but not limited to:
-      - User interfaces that display output from or provide input to the Software without reproducing the Software's Source Code.
-      - Independent programs that communicate with the Software solely through:
-        * Standard protocols and inter-process communication
-        * Operating system interfaces, including launching, invoking, or executing the Software as a separate process
-        * Foreign Function Interfaces (FFI)
-        * Static or dynamic linking
-      - Independent works that use the Software as a dependency without modification, even if the full Source Code is integrated into the Work's binary.
-      - Works that use the Software as a tool without incorporating its Source Code
-      - Container images that include unmodified copies of the Software
+1.4 Definitions of Software Interaction and Modification
 
-     Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
+   a) "Modification" means any change to the Software that requires copyright permission, other than making an exact copy. This includes, but is not limited to:
+      - Altering existing code or documentation
+      - Adding new functionality to existing code
+      - Removing or changing features
+      - Translating the Software to a different programming language
 
-1.5 **"Prominent Notice"** refers to a notification that would be discoverable by an ordinary user during normal use of the software, including but not limited to placement in:
+   b) "Enhancement" means a Modification that adds new functionality while preserving existing functionality. This includes:
+      - Adding new features
+      - Improving performance
+      - Extending compatibility
+      - Adding new interfaces
+
+   c) "Addition" means:
+      - New code that becomes technically required for the Software to compile or function, where such requirement did not exist in the original Software; or
+      - Integration of the Software's code with other code in a way that creates mutual dependencies between them.
+
+      An Addition creates a technical dependency when the Software is modified to require the new code for its basic operation or compilation.
+
+   d) "Uses" means:
+      - Executing the compiled Software
+      - Calling the Software's compiled interfaces, including using FFI
+      - Loading the Software as a runtime dependency
+      - Accessing the Software's binary services
+
+      without modifying the Software itself.
+
+   e) "Incorporates" means:
+      - Including the Software's source code in a build process
+      - Linking against the Software's code (statically or dynamically)
+      - Embedding the Software's code into another work
+      - Bundling the Software's code with another work
+
+      without modifying the original code.
+
+   f) "Interacts with" means any of the following interactions with the Software, without modifying it:
+      1. API Usage:
+         - Calling exposed APIs, functions, or interfaces
+         - Using published protocols or service endpoints
+
+      2. Process and System:
+         - Inter-process communication (IPC)
+         - Operating system process management
+         - System signals and environment interaction
+
+      3. Data Communication:
+         - Network protocols and sockets
+         - File operations and streams
+         - Shared memory and message queues
+         - Standard input/output
+
+   Each form of interaction must use documented interfaces or standard system mechanisms.
+
+1.5 "Derivative Work" means any work that, given the definitions in Section 1.4:
+   a) Contains, is based on, or is derived from the Software through Modification, Enhancement, or Addition; or
+   b) Incorporates any part of the Software's source code with modifications; or
+   c) Would require permission under copyright law from the Original Authors or Copyright Holders due to modification or adaptation of the Software.
+
+1.6 "Dependent Work" means any work that, diven the definitions in Section 1.4:
+   a) Uses or Interacts with the Software without modification; or
+   b) Incorporates the the unmodified Software through compilation, linking, or other standard integration methods; or
+   c) Relies on the Software's functionality through well-defined interfaces without modifying the Software itself.
+
+   Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
+
+1.7 The following are neither Derivative nor Dependent Works:
+
+   a) Works that are separate and independent from the Software, where "independent" means capable of functioning without any reference to or reliance on the Software, including:
+      - Works merely distributed alongside the Software
+      - Works aggregated with the Software on storage or distribution media
+      - Works that happen to be distributed with the Software
+
+   b) The following mechanical transformations of the unmodified Software:
+      - The output of compiling the Software's Source Code
+      - The result of interpreting the Software's Source Code
+
+   c) General-purpose operating systems and runtime environments that execute the Software's binary or bytecode form without modification or enhancement specifically for the Software.
+
+1.8 **"Prominent Notice"** refers to a notification that would be discoverable by an ordinary user during normal use of the software, including but not limited to placement in:
    a) "About" screens, help menus, or settings pages in graphical applications
    b) Startup messages, help output, or standard documentation in command-line applications
    c) API documentation, README files, or developer guides for libraries
    d) Footers, "About" pages, or terms of service for web applications
    e) Installation processes, documentation, or license files for all software
 
-1.6 **"Original Authors or Copyright Holders"** refers to the individuals or entities who own the copyright to the Software, including the initial creators and any subsequent owners who have legally acquired the copyright through assignment, transfer, inheritance, or other legal means.
+1.9 **"Original Authors, Copyright Holders, and Contributors"** refers to:
+   a) "Original Authors or Copyright Holders": The individuals or entities who own the copyright to the Software, including the initial creators and any subsequent owners who have legally acquired the copyright through assignment, transfer, inheritance, or other legal means.
+   b) "Contributors": Any individual or entity that has submitted a Contribution that has been Released (as defined in Section 1.11). Contributors retain copyright to their Contributions while granting licenses as specified in Section 3.2, unless explicitly transferred to the Original Authors or Copyright Holders through written agreement.
 
-1.7 "Sublicense" refers to the act of granting to others the rights you received under this license, but under different or additional terms than those contained in this license.
+   The terms "Original Authors" and "Copyright Holders" may be used interchangeably when referring to rights and obligations under this license, while "Contributors" specifically refers to those who have made Released Contributions as defined in Section 1.11.
 
-1.8 **"Contribution"** means any modification, enhancement, or addition to the Software that is intentionally submitted to the Original Authors or Copyright Holders for inclusion in the Software. A Contribution is "submitted" when provided through any form of electronic, verbal, or written communication, excluding communications explicitly marked as "Not a Contribution."
+1.10 **"Sublicense"** refers to the act of granting to others the rights you received under this license, but under different or additional terms than those contained in this license.
+
+1.11 **"Contribution"** means any modification, enhancement, or addition to the Software that is intentionally submitted to the Original Authors or Copyright Holders for inclusion in the Software. A Contribution is "submitted" when provided through any form of electronic, verbal, or written communication, excluding communications explicitly marked as "Not a Contribution."
 
 For purposes of revocation rights, a Contribution is considered "Released" when it has been publicly distributed as part of the Software, whether in Source Code or binary form, through any channel including but not limited to official releases, public repositories, or distribution platforms.
 
-1.9 **"Trademarks"** refers to any names, marks, logos, icons, designs, or other designation used by the Original Authors or Copyright Holders to identify themselves, their projects, or the Software.
+1.12 **"Trademarks"** refers to any names, marks, logos, icons, designs, or other designation used by the Original Authors or Copyright Holders to identify themselves, their projects, or the Software.
 
 ### 2. Grant of Rights
 
@@ -81,13 +142,13 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
       - A complete copy of this license must be included.
       - A prominent notice stating that the Software is licensed under the AuraGem Opensource Copyleft License must be included.
 
-   b) For Dependent Works that use the Software, as per the exclusions in Section 1.4(b):
+   b) For Dependent Works that use the Software, as per the exclusions in Section 1.6:
       - A copy of Sections 4, 5, and 8 of this license, or a reference to this license in full, must be included.
       - A prominent notice stating that the software incorporates elements covered by the AuraGem Opensource Copyleft License must be included.
       - A reference to where the Software's Source Code can be obtained must be included.
       - Any use of Trademarks must comply with Section 5 of this license.
 
-   c) Any distribution you make must be made directly under the terms of this license without sublicensing. Each recipient receives their rights directly from the Original Authors or Copyright Holders, not from you as an intermediary.
+   c) Any distribution you make must be made directly under the terms of this license without sublicensing. Each recipient receives their rights directly from the Original Authors or Copyright Holders, not from you as an intermediary. Contributors' rights are handled through their Contribution agreements as specified in Section 3.2.
 
 ### 3. Copyleft
 
@@ -97,20 +158,20 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
 3.3 By submitting a Contribution, you confirm that you have the legal right to do so and agree that your Contribution is automatically licensed under this license. The patent licenses granted in Section 7.1 apply to your Contribution when used alone or in combination with the Software.
 
-3.4 Right to Revoke Unreleased Contributions: You may revoke your Contribution at any time before it is Released (as defined in Section 1.8) by providing clear notice to the Original Authors or Copyright Holders through the same channel used for the original submission or through direct communication. Upon such revocation, the license grants in this license with respect to that specific unreleased Contribution are terminated. Once a Contribution has been Released as part of the Software, the license grants become irrevocable.
+3.4 Right to Revoke Unreleased Contributions: You may revoke your Contribution at any time before it is Released (as defined in Section 1.11) by providing clear notice to the Original Authors or Copyright Holders through the same channel used for the original submission or through direct communication. Upon such revocation, the license grants in this license with respect to that specific unreleased Contribution are terminated. Once a Contribution has been Released as part of the Software, the license grants become irrevocable.
 
 ### 4. Attribution Notices
 
-4.1 You must preserve all attribution notices and copyright statements included in the Software. These notices must be retained in all copies of the Software, any Derivative Works, and any Dependent Works that use the Software as described in Section 1.4(b).
+4.1 You must preserve all attribution notices and copyright statements included in the Software. These notices must be retained in all copies of the Software, any Derivative Works, and any Dependent Works, as defined in Sections 1.4, 1.5, and 1.6.
 
 4.2 If you modify the Software, you must include a prominent notice stating that you have changed the Software and the date of such changes.
 
 4.3 Use of names, trademarks, service marks, or product names of the Original Authors or Copyright Holders is governed by Section 5 (Trademark Usage), with limited permissions for attribution purposes as specified in Section 5.2.
 
 4.4 Scope of Attribution Requirements:
-   a) The attribution requirements in this section (Section 4) apply to all software that uses the Software or its Source Code in any way, even if that software is not considered a Derivative Work under Section 1.4.
+   a) The attribution requirements in this section (Section 4) apply to all software that uses the Software or its Source Code in any way, even if that software is not considered a Derivative Work under Section 1.5.
    b) This means that even software that merely links to the Software, provides a user interface for the Software, or communicates with the Software through APIs must comply with all attribution requirements in Section 4.
-   c) These attribution requirements are independent of the obligation to share source code, which applies only to Derivative Works as defined in Section 1.4.
+   c) These attribution requirements are independent of the obligation to share source code, which applies only to Derivative Works as defined in Section 1.5.
 
 ### 5. Trademark Usage
 
@@ -174,9 +235,9 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
    c) You are not required to host the Source Code yourself if it's available through a package manager or online service
 
-8.3 These requirements apply even if your application or service would otherwise qualify as a Dependent Work under Section 1.4.
+8.3 These requirements apply even if your application or service would otherwise qualify as a Dependent Work under Section 1.6.
 
-8.4 You are not required to make available the Source Code of your larger application if it qualifies as a Dependent Work under Section 1.4.
+8.4 You are not required to make available the Source Code of your larger application if it qualifies as a Dependent Work under Section 1.6.
 
 8.5 The Source Code made available under Section 8.1 must be provided under the same terms as this license.
 
@@ -230,7 +291,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
 11.2 Your continued use of the Software in any capacity constitutes ongoing acceptance of these terms. If you do not agree to these terms, you may not use, copy, modify, distribute, or interact with the Software in any way.
 
-11.3 By submitting a Contribution as defined in Section 1.8, you accept and agree to be bound by all terms of this license for your Contribution, subject to your right to revoke unreleased Contributions as specified in Section 3.4. Once your Contribution has been Released as part of the Software, this acceptance is irrevocable and applies to all future recipients of your Contribution, whether received directly from you or through intermediaries.
+11.3 By submitting a Contribution as defined in Section 1.11, you accept and agree to be bound by all terms of this license for your Contribution, subject to your right to revoke unreleased Contributions as specified in Section 3.4. Once your Contribution has been Released as part of the Software, this acceptance is irrevocable and applies to all future recipients of your Contribution, whether received directly from you or through intermediaries.
 
 ### 12. Severability
 
