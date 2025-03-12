@@ -93,9 +93,9 @@ For clarity, the term "Software" by itself refers specifically to the work licen
    b) Incorporates any part of the Software's source code with modifications; or
    c) Would require permission under copyright law from the Original Authors or Copyright Holders due to modification or adaptation of the Software.
 
-1.6 "Dependent Work" means any work that, diven the definitions in Section 1.4:
+1.6 "Dependent Work" means any work that, given the definitions in Section 1.4:
    a) Uses or Interacts with the Software without modification; or
-   b) Incorporates the the unmodified Software through compilation, linking, or other standard integration methods; or
+   b) Incorporates the unmodified Software through compilation, linking, or other standard integration methods; or
    c) Relies on the Software's functionality through well-defined interfaces without modifying the Software itself.
 
    Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
