@@ -10,6 +10,27 @@ Unlike other open source licenses, AOCL is a fixed version without automatic ver
 
 This license represents a middle ground that is more protective than permissive licenses and more pragmatic than traditional strong copyleft licenses, allowing the software to be used in widely diverse contexts with appropriate attribution and patent protections, and maintaining a consistent set of obligations that cannot change over time without the explicit permission of the original authors or copyright holders of the software. By choosing this license, you contribute to a collaborative ecosystem that balances freedom, recognition, and practical adoption.
 
+## Details
+
+### Permissions
+* Commercial Use
+* Distribution
+* Modification
+* Patent Use
+* Private Use
+
+### Conditions
+* Disclose Source
+* License and copyright notice
+* Same license (library; Derivative Works only)
+* Network use is distribution (attribution for Dependent Works, copyleft for Derivative Works)
+* State changes
+
+### Limitations
+* Warranty
+* Liability
+* Trademark Use
+
 ## Determining Derivative vs. Dependent Works
 
 To determine whether your work is a Derivative Work or a Dependent Work, follow this decision tree:
