@@ -58,7 +58,7 @@ This license represents a middle ground that is more protective than permissive 
 
 Using the Software as a library via package/module import, inclusion, process spawning, and static or dynamic linking, qualifies as a Dependent Work as long as there's no modifications to the Software. They are subject only to the Attribution, Trademark, Warranty, and Liability Limitations and Conditions.
 
-Modification, or new code added to the Software such that the Software cannot compile without it (aka. Additions), qualifies as a Derivative Work. They are subject to *all* of the Conditions and Limitations of the AOCL License.
+Modification and new code added to the Software such that the Software cannot compile without it (aka. Additions) qualify as Derivative Works. They are subject to *all* of the Conditions and Limitations of the AOCL License.
 
 > 1.5 "Derivative Work" means any work that, given the definitions in Section 1.4:
 >    a) Contains, is based on, or is derived from the Software through Modification, Enhancement, or Addition; or
