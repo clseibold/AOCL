@@ -174,7 +174,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       - Selective distribution policies that discriminate against certain users or uses
       - Any attempt to terminate or modify this license when a recipient exercises the rights granted by this license, including redistribution, use, copy, modification, and rebuilding
 
-   c) This Distribution Requriements and Restrictions subsection does not prevent:
+   c) This Distribution Requirements and Restrictions subsection does not prevent:
       - Charging fees for distribution or support
       - Trademark protection as specified in Section 5
       - Standard warranty disclaimers and liability limitations
