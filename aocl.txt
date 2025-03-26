@@ -163,13 +163,13 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 2.2 Distribution Requirements and Restrictions
 
-   a) You may not impose any additional restrictions on recipients that would prevent, impede, or discourage them from:
+   a) You may not impose any additional restrictions on any recipient that would prevent, impede, or discourage them from:
       - Redistributing the Software or Derivative Works
       - Sharing source code of the Software or Derivative Works
       - Creating or sharing Derivative Works
       - Exercising any other right granted by this license
 
-   given they are following all of the requirements of this license.
+   given the recipient is following all of the requirements of this license.
 
    b) Specifically prohibited are:
       - Requirements that users agree not to distribute the Software
