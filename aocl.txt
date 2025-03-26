@@ -9,17 +9,20 @@ The name "AuraGem Opensource Copyleft License™" may only be used to refer to t
 
 ## Preamble
 
-The AuraGem Opensource Copyleft License (AOCL) is designed to provide a balanced approach to copyleft that ensures modifications to source code remain open while enabling flexible integration through linking interfaces, UIs, standard library usage, and data exchange.
+The AuraGem Opensource Copyleft License (AOCL) addresses modern software development needs while preserving open source freedoms. This license is designed for developers who want their code to remain open while enabling practical business use.
 
-AOCL protects the rights of creators through attribution requirements and patent provisions while addressing modern software delivery methods, including network services (e.g., SaaS).
+Software freedom includes the rights to use, copy, modify, rebuild, and distribute software. These rights must remain protected regardless of how software is delivered or deployed. When software is distributed over networks or integrated into larger systems, these fundamental freedoms should not be diminished.
 
-By distinguishing between Derivative and Dependent works, the license balances copyleft with flexibility. Derivative works are subject to copyleft under the AOCL license, whereas Dependent Works can be licensed differently, subject only to attribution, trademark, and patent requirements, but not to copyleft. This allows AOCL-licensed Software to be used as a library for static linking, dynamic linking, FFI, or standard inclusion as a library without modification, which is common in programming languages like Rust and Golang.
+AOCL provides these protections through:
+- Clear distinctions between Derivative and Dependent works
+- Explicit protections for irrevocable redistribution and rebuilding rights
+- Modern provisions for network-based software delivery
+- Strong patent protections and attribution requirements
+- Fixed versioning to ensure consistent interpretation
 
-Unlike other open source licenses, AOCL is a fixed version without automatic version upgrading, removing confusion about which version applies to a given software, whether derivatives can or cannot utilize "later versions" of this license, and ensuring all modifications to software under this license can be upstreamed without additional restrictions placed on those modifications.
+This license strikes a balance between protecting user freedoms and enabling practical integration. It is more protective than permissive licenses while being more pragmatic than traditional strong copyleft licenses.
 
-This license represents a middle ground that is more protective than permissive licenses and more pragmatic than traditional strong copyleft licenses, allowing the software to be used in widely diverse contexts with appropriate attribution and patent protections, and maintaining a consistent set of obligations that cannot change over time without the explicit permission of the Original Authors or Copyright Holders of the software.
-
-Recent events have highlighted how traditional open source licenses could be manipulated through creative interpretation to restrict redistribution and rebuilding rights - a practice intended to discriminate against particular persons, groups, and fields of endeavor. It represents a real threat to open source principles that risks reverting the ecosystem to an era without open source freedoms. AOCL explicitly closes this loophole by preventing any attempt to terminate, discourage, impede, or restrict rights when users exercise their open source freedoms. Simply redistributing and rebuilding code is part of the very purpose and spirit of open source, whether or not it adds value or modifies the code. While certain commercial entities that have built their businesses on the backs of the open source community may find this inconvenient for their "enterprise" business models, we believe that when software is open source, it should remain genuinely open source, not merely open source in name only.
+Recent events have highlighted how traditional open source licenses could be manipulated through creative interpretation to restrict redistribution and rebuilding rights - a practice intended to discriminate against particular persons, groups, and fields of endeavor. It represents a real threat to open source principles that risks reverting the ecosystem to an era without open source freedoms. AOCL explicitly closes potential loopholes preventing any attempt to terminate, discourage, impede, or restrict rights granted by this license when users exercise their open source freedoms. Simply redistributing and rebuilding code is part of the terms and spirit of open source, whether or not it adds value or modifies the code. While commercial entities that have built their businesses on the backs of the open source community may find this inconvenient for their "enterprise" business models, when software is open source, it should follow the terms of open source without impedement.
 
 ## License Terms
 
