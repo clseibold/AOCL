@@ -4,7 +4,7 @@ The AuraGem Opensource Copyleft License (AOCL) is designed to provide a balanced
 
 AOCL protects the rights of creators through attribution requirements and patent provisions while addressing modern software delivery methods, including network services (e.g., SaaS).
 
-By distinguishing between Derivative and Dependent works, the license balances copyleft with flexibility. Derivative works are subject to copyleft under the AOCL license. Dependent Works can be licensed independently from the AOCL-licensed Software being depended on. This allows AOCL-licensed Software to be used as a library for static linking, dynamic linking, FFI, or standard inclusion as a library without modification, which is common in programming languages like Rust and Golang.
+By distinguishing between Derivative and Dependent works, the license balances copyleft with flexibility. Derivative works are subject to copyleft under the AOCL license, whereas Dependent Works can be licensed differently, subject only to attribution, trademark, and patent requirements, but not to copyleft. This allows AOCL-licensed Software to be used as a library for static linking, dynamic linking, FFI, or standard inclusion as a library without modification, which is common in programming languages like Rust and Golang.
 
 Unlike other open source licenses, AOCL is a fixed version without automatic version upgrading, removing confusion about which version applies to a given software, whether derivatives can or cannot utilize "later versions" of this license, and ensuring all modifications to software under this license can be upstreamed without additional restrictions placed on those modifications.
 
