@@ -165,7 +165,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       - Redistributing the Software or Derivative Works
       - Sharing source code of the Software or Derivative Works
       - Creating or sharing Derivative Works
-      - Any other right granted by this license
+      - Exercising any other right granted by this license
 
    b) Specifically prohibited are:
       - Requirements that users agree not to distribute the Software
