@@ -26,7 +26,7 @@ Events in 2023 in the software industry have highlighted how traditional open so
 
 ## License Terms
 
-### 1. Definitions
+### 1. Definitions.
 
 1.1 "This License" refers to AuraGem Opensource Copyleft License (AOCL).
 
@@ -146,7 +146,7 @@ For purposes of revocation rights, a Contribution is considered "Released" when 
 
 1.15 **"Rebuild"** means the process of compiling or assembling the Software from its Source Code or other intermediate forms into its final executable or deployable form.
 
-### 2. Grant of Rights
+### 2. Grant of Rights.
 
 2.1 All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.
 
@@ -187,7 +187,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       - Standard warranty disclaimers and liability limitations
       - Requirements to preserve copyright and license notices
 
-### 3. Copyleft
+### 3. Copyleft.
 
 3.1 Any Derivative Works of the Software must be licensed under the same terms as this license. Dependent Works are not subject to these copyleft restrictions, but the original Software Source Code must still remain under AOCL copyleft. You may not impose any additional restrictions on the rights granted by this license, nor may you sublicense the Software or any Derivative Works.
 
@@ -197,7 +197,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 3.4 Right to Revoke Unreleased Contributions: You may revoke your Contribution at any time before it is Released (as defined in Section 1.13) by providing clear notice to the Original Authors or Copyright Holders through the same channel used for the original submission or through direct communication. Upon such revocation, the license grants in this license with respect to that specific unreleased Contribution are terminated. Once a Contribution has been Released as part of the Software, the license grants become irrevocable.
 
-### 4. Attribution Notices
+### 4. Attribution Notices.
 
 4.1 You must preserve all attribution notices and copyright statements included in the Software. These notices must be retained in all copies of the Software, any Derivative Works, and any Dependent Works, as defined in Sections 1.6, 1.7, and 1.8.
 
@@ -210,7 +210,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
    b) This means that even software that merely links to the Software, provides a user interface for the Software, or communicates with the Software through APIs must comply with all attribution requirements in Section 4.
    c) These attribution requirements are independent of the obligation to share source code, which applies only to Derivative Works as defined in Section 1.7.
 
-### 5. Trademark Usage
+### 5. Trademark Usage.
 
 5.1 This license does not grant you any right to use any Trademarks in the following ways:
    a) To identify any software other than the unmodified Software;
@@ -228,7 +228,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 5.4 Nothing in this license should be interpreted to prohibit the Original Authors or Copyright Holders from enforcing their trademark rights.
 
-### 6. No Versioning
+### 6. No Versioning.
 
 6.1 This license is a fixed license without a version number. You may not:
    a) Automatically upgrade to any new or different version of this license;
@@ -241,7 +241,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 6.3 Any attempt to change, replace, or upgrade this license without meeting the requirements in Section 6.2 constitutes a violation of this license subject to the termination and enforcement provisions in Section 9.
 
-### 7. Patent Rights
+### 7. Patent Rights.
 
 7.1 Patent Grant:
    a) Each contributor hereby grants to you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Software, where such license applies only to those patent claims licensable by such contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Software to which such Contribution(s) was submitted.
@@ -266,7 +266,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
    b) If you receive the Software under this License, your rights will not terminate even if you inadvertently breach this License and cure the breach upon learning of it.
 
-### 8. Network Use
+### 8. Network Use.
 
 8.1 If you use the Software (in either Source Code or binary form) to provide a service over a network (including but not limited to web services, cloud services, or any other form of software as a service), you must make the following available to users of that service:
    a) The Software's Source Code as you received it
@@ -295,7 +295,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 8.5 The Source Code made available under Section 8.1 must be provided under the same terms as this license.
 
-### 9. Enforcement Mechanism and Remedies for Non-Compliance
+### 9. Enforcement Mechanism and Remedies for Non-Compliance.
 
 9.1 License Termination for Violations:
 
@@ -342,7 +342,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 12.1 If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.
 
-### 13. Acceptance
+### 13. Acceptance.
 
 13.1 By using, copying, modifying, rebuilding, distributing, or incorporating the Software (in either Source Code or binary form) in any way (including through linking, interfaces, or APIs), you accept and agree to be bound by all applicable terms of this license. This acceptance specifically includes:
    a) For all users:
