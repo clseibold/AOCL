@@ -104,7 +104,7 @@ For clarity, the term "the Software" by itself refers specifically to the work l
    b) Incorporates the unmodified Software through compilation, linking, or other standard integration methods; or
    c) Relies on the Software's functionality through well-defined interfaces without modifying the Software itself.
 
-   Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), and 8 (Network Usage) of this license, while retaining their independence in other aspects.
+   Such Dependent Works are subject to Sections 4 (Attribution), 5 (Trademark Usage), and 7 (Network Usage) of this license, while retaining their independence in other aspects.
 
 1.9 The following are neither Derivative nor Dependent Works:
 
@@ -157,7 +157,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       - A prominent notice stating that the Software is licensed under the AuraGem Opensource Copyleft License must be included.
 
    b) For Dependent Works that use the Software, as per the exclusions in Section 1.8:
-      - A copy of Sections 4, 5, and 8 of this license, or a reference to this license in full, must be included.
+      - A copy of Sections 4, 5, and 7 of this license, or a reference to this license in full, must be included.
       - A prominent notice stating that the software incorporates elements covered by the AuraGem Opensource Copyleft License must be included.
       - A reference to where the Software's Source Code can be obtained must be included.
       - Any use of Trademarks must comply with Section 5 of this license.
@@ -193,7 +193,7 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 3.2 Any Contributions intentionally submitted for inclusion in the Software shall be subject to the same terms and conditions as this license, without any additional terms or conditions.
 
-3.3 By submitting a Contribution, you confirm that you have the legal right to do so and agree that your Contribution is automatically licensed under this license. The patent licenses granted in Section 7.1 apply to your Contribution when used alone or in combination with the Software.
+3.3 By submitting a Contribution, you confirm that you have the legal right to do so and agree that your Contribution is automatically licensed under this license. The patent licenses granted in Section 6.1 apply to your Contribution when used alone or in combination with the Software.
 
 3.4 Right to Revoke Unreleased Contributions: You may revoke your Contribution at any time before it is Released (as defined in Section 1.13) by providing clear notice to the Original Authors or Copyright Holders through the same channel used for the original submission or through direct communication. Upon such revocation, the license grants in this license with respect to that specific unreleased Contribution are terminated. Once a Contribution has been Released as part of the Software, the license grants become irrevocable.
 
@@ -228,32 +228,19 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
 5.4 Nothing in this license should be interpreted to prohibit the Original Authors or Copyright Holders from enforcing their trademark rights.
 
-### 6. No Versioning.
+### 6. Patent Rights.
 
-6.1 This license is a fixed license without a version number. You may not:
-   a) Automatically upgrade to any new or different version of this license;
-   b) Claim that the Software is available under any "later version" of this license;
-   c) Modify the terms of this license when redistributing the Software or Derivative Works.
-
-6.2 Any modifications to this license require:
-   a) Explicit written consent from all copyright holders of the Software; and
-   b) Clear documentation of such consent provided with any distribution.
-
-6.3 Any attempt to change, replace, or upgrade this license without meeting the requirements in Section 6.2 constitutes a violation of this license subject to the termination and enforcement provisions in Section 9.
-
-### 7. Patent Rights.
-
-7.1 Patent Grant:
+6.1 Patent Grant:
    a) Each contributor hereby grants to you a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Software, where such license applies only to those patent claims licensable by such contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Software to which such Contribution(s) was submitted.
 
    b) For Derivative Works: You grant recipients a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Software.
 
-7.2 Patent Defense:
+6.2 Patent Defense:
    a) If you initiate litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Software or a Contribution incorporated within the Software constitutes direct or contributory patent infringement, then any patent licenses granted to you under this License for that Software shall terminate as of the date such litigation is filed.
 
    b) If you assert a patent claim against any entity alleging that the Software directly or indirectly infringes any patent, then your rights under this License shall terminate immediately for the Software against which you assert such claims.
 
-7.3 Additional Patent Rights:
+6.3 Additional Patent Rights:
    a) For any portion of the Software governed by this License where you have the right to grant patent licenses, you grant all recipients of the Software an irrevocable promise not to assert any patents you may obtain in the future against their use, modification, or distribution of such portions of the Software.
 
    b) No patent license is granted:
@@ -261,21 +248,21 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       2. for infringements caused by modifications you make to the Software; or
       3. for infringements caused by combining the unmodified Software with other software or devices, except as explicitly permitted under this License.
 
-7.4 Patent Peace:
-   a) The rights granted under this License will not terminate if you add patent claims after signing this License, unless you affirmatively act to terminate them through patent litigation as described in Section 7.2.
+6.4 Patent Peace:
+   a) The rights granted under this License will not terminate if you add patent claims after signing this License, unless you affirmatively act to terminate them through patent litigation as described in Section 6.2.
 
    b) If you receive the Software under this License, your rights will not terminate even if you inadvertently breach this License and cure the breach upon learning of it.
 
-### 8. Network Use.
+### 7. Network Use.
 
-8.1 If you use the Software (in either Source Code or binary form) to provide a service over a network (including but not limited to web services, cloud services, or any other form of software as a service), you must make the following available to users of that service:
+7.1 If you use the Software (in either Source Code or binary form) to provide a service over a network (including but not limited to web services, cloud services, or any other form of software as a service), you must make the following available to users of that service:
    a) The Software's Source Code as you received it
    b) The Source Code of any modifications you have made to the Software
    c) A prominent notice indicating how users can obtain this Source Code
 
-8.2 Methods of Source Code Provision:
+7.2 Methods of Source Code Provision:
 
-   a) You may fulfill the requirements in Section 8.1 by any of the following methods:
+   a) You may fulfill the requirements in Section 7.1 by any of the following methods:
       - Providing a direct download link within your application or service
       - Including the Source Code in your application's documentation or help screens
       - Providing a clear URL in your application or service where the Source Code can be freely accessed
@@ -289,15 +276,15 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
 
    c) You are not required to host the Source Code yourself if it's available through a package manager or online service
 
-8.3 These requirements apply even if your application or service would otherwise qualify as a Dependent Work under Section 1.8.
+7.3 These requirements apply even if your application or service would otherwise qualify as a Dependent Work under Section 1.8.
 
-8.4 You are not required to make available the Source Code of your larger application if it qualifies as a Dependent Work under Section 1.8.
+7.4 You are not required to make available the Source Code of your larger application if it qualifies as a Dependent Work under Section 1.8.
 
-8.5 The Source Code made available under Section 8.1 must be provided under the same terms as this license.
+7.5 The Source Code made available under Section 8.1 must be provided under the same terms as this license.
 
-### 9. Enforcement Mechanism and Remedies for Non-Compliance.
+### 8. Enforcement Mechanism and Remedies for Non-Compliance.
 
-9.1 License Termination for Violations:
+8.1 License Termination for Violations:
 
    a) If you fail to comply with any of the terms of this license applicable to your use of the Software (in either Source Code or binary form), your rights under this license shall terminate automatically.
 
@@ -307,11 +294,11 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       - Failure to comply with attribution requirements in Section 4, even if the software is not considered a Derivative Work
       - Violation of trademark usage restrictions in Section 5
       - Violation of the versioning restrictions in Section 6
-      - Violation of patent grant provisions in Section 7.1, including refusal to grant necessary patent licenses
-      - Violation of patent retaliation provisions in Section 7.2 by initiating covered patent litigation
+      - Violation of patent grant provisions in Section 6.1, including refusal to grant necessary patent licenses
+      - Violation of patent retaliation provisions in Section 6.2 by initiating covered patent litigation
       - Failure to make Source Code available as required for network use under Section 8
 
-9.2 You may remedy this non-compliance by:
+8.2 You may remedy this non-compliance by:
 
    a) For violations involving Derivative Works:
       - Ceasing all use, copying, modification, and distribution of the Software and any Derivative Works.
@@ -323,12 +310,25 @@ You are granted the right to use, copy, modify, rebuild, and distribute the Soft
       - Correcting the non-compliance within 30 days of becoming aware of it.
       - Notifying the Original Authors or Copyright Holders of your corrective actions.
 
-9.3 If and only if you fully remedy the non-compliance within the specified period, your rights under this license may be reinstated. If you do not remedy the non-compliance within the specified period, you may not resume use of the Software in any way without obtaining a new license from the copyright holders.
+8.3 If and only if you fully remedy the non-compliance within the specified period, your rights under this license may be reinstated. If you do not remedy the non-compliance within the specified period, you may not resume use of the Software in any way without obtaining a new license from the copyright holders.
 
-9.4 The Original Authors or Copyright Holders may enforce this license through legal action. In the event of a breach of this license, they may seek:
+8.4 The Original Authors or Copyright Holders may enforce this license through legal action. In the event of a breach of this license, they may seek:
    a) Injunctive relief to prevent further violations.
    b) Monetary damages for any losses incurred due to the violation.
    c) Recovery of attorney's fees and costs associated with enforcing this license.
+
+### 9. No Versioning.
+
+9.1 This license is a fixed license without a version number. You may not:
+   a) Automatically upgrade to any new or different version of this license;
+   b) Claim that the Software is available under any "later version" of this license;
+   c) Modify the terms of this license when redistributing the Software or Derivative Works.
+
+9.2 Any modifications to this license require:
+   a) Explicit written consent from all copyright holders of the Software; and
+   b) Clear documentation of such consent provided with any distribution.
+
+9.3 Any attempt to change, replace, or upgrade this license without meeting the requirements in Section 9.2 constitutes a violation of this license subject to the termination and enforcement provisions in Section 8.
 
 ### 10. Disclaimer of Warranty.
 
